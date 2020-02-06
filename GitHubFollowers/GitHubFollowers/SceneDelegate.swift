@@ -17,13 +17,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
+        let searchNC = UINavigationController(rootViewController: SearchViewController())
+        let favoritesNC = UINavigationController(rootViewController: FavoritesListViewController())
+        
+        let tabBar = UITabBarController()
+        tabBar.viewControllers = [searchNC, favoritesNC]
+        
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         // Takes up the space of the whole screen.
         
         window?.windowScene = windowScene
         // Setting line 13 window's window scene to window scene on line 18
         
-        window?.rootViewController = ViewController()
+        window?.rootViewController = tabBar
         // Making the ViewController file the root view controller
         
         window?.makeKeyAndVisible()

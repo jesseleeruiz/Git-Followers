@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		80FEEB3623EB94D00006C0C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB3523EB94D00006C0C2 /* AppDelegate.swift */; };
 		80FEEB3823EB94D00006C0C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB3723EB94D00006C0C2 /* SceneDelegate.swift */; };
-		80FEEB3A23EB94D00006C0C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB3923EB94D00006C0C2 /* ViewController.swift */; };
 		80FEEB3F23EB94D50006C0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FEEB3E23EB94D50006C0C2 /* Assets.xcassets */; };
 		80FEEB4223EB94D50006C0C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FEEB4023EB94D50006C0C2 /* LaunchScreen.storyboard */; };
+		80FEEB4A23EB9F0F0006C0C2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB4923EB9F0F0006C0C2 /* SearchViewController.swift */; };
+		80FEEB4C23EB9F390006C0C2 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB4B23EB9F390006C0C2 /* FavoritesListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80FEEB3223EB94D00006C0C2 /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80FEEB3523EB94D00006C0C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80FEEB3723EB94D00006C0C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80FEEB3923EB94D00006C0C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80FEEB3E23EB94D50006C0C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80FEEB4123EB94D50006C0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80FEEB4323EB94D50006C0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FEEB4923EB9F0F0006C0C2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		80FEEB4B23EB9F390006C0C2 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				80FEEB3523EB94D00006C0C2 /* AppDelegate.swift */,
 				80FEEB3723EB94D00006C0C2 /* SceneDelegate.swift */,
-				80FEEB3923EB94D00006C0C2 /* ViewController.swift */,
 				80FEEB3E23EB94D50006C0C2 /* Assets.xcassets */,
 				80FEEB4023EB94D50006C0C2 /* LaunchScreen.storyboard */,
 				80FEEB4323EB94D50006C0C2 /* Info.plist */,
+				80FEEB4923EB9F0F0006C0C2 /* SearchViewController.swift */,
+				80FEEB4B23EB9F390006C0C2 /* FavoritesListViewController.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -134,8 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80FEEB3A23EB94D00006C0C2 /* ViewController.swift in Sources */,
+				80FEEB4A23EB9F0F0006C0C2 /* SearchViewController.swift in Sources */,
 				80FEEB3623EB94D00006C0C2 /* AppDelegate.swift in Sources */,
+				80FEEB4C23EB9F390006C0C2 /* FavoritesListViewController.swift in Sources */,
 				80FEEB3823EB94D00006C0C2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
