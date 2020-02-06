@@ -17,23 +17,38 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        let searchNC = UINavigationController(rootViewController: SearchViewController())
-        let favoritesNC = UINavigationController(rootViewController: FavoritesListViewController())
-        
-        let tabBar = UITabBarController()
-        tabBar.viewControllers = [searchNC, favoritesNC]
-        
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         // Takes up the space of the whole screen.
         
         window?.windowScene = windowScene
         // Setting line 13 window's window scene to window scene on line 18
         
-        window?.rootViewController = tabBar
+        window?.rootViewController = createTabBar()
         // Making the ViewController file the root view controller
         
         window?.makeKeyAndVisible()
         // Making it visibile
+    }
+    
+    func createTabBar() -> UITabBarController {
+        let tabBar = UITabBarController()
+        UITabBar.appearance().tintColor = .systemGreen
+        tabBar.viewControllers = [createSearchNC(), createFavoritesListNC()]
+        return tabBar
+    }
+    
+    func createSearchNC() -> UINavigationController {
+        let searchVC = SearchViewController()
+        searchVC.title = "Search"
+        searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
+        return UINavigationController(rootViewController: searchVC)
+    }
+    
+    func createFavoritesListNC() -> UINavigationController {
+        let favoritesListVC = FavoritesListViewController()
+        favoritesListVC.title = "Favorites"
+        favoritesListVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        return UINavigationController(rootViewController: favoritesListVC)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
