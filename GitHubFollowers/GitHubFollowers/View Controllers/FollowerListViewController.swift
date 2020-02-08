@@ -63,8 +63,9 @@ class FollowerListViewController: UIViewController {
         return flowLayout
     }
     
-    func getFollowers() {
-        NetworkManager.shared.getFollowers(for: username, page: 1) { (result) in
+    func getFollowers() {                                           //Capture List
+        NetworkManager.shared.getFollowers(for: username, page: 1) { [weak self] (result) in
+            guard let self = self else { return } // unwrapping weak self since it is optional
             
             switch result {
             case .success(let followers):
