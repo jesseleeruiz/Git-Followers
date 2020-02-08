@@ -26,6 +26,7 @@
 		80FEEB7123ECF3A90006C0C2 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7023ECF3A90006C0C2 /* ErrorMessage.swift */; };
 		80FEEB7423ECFBF10006C0C2 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7323ECFBF10006C0C2 /* FollowerCell.swift */; };
 		80FEEB7623ECFC640006C0C2 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7523ECFC640006C0C2 /* GFAvatarImageView.swift */; };
+		80FEEB7823EE95B80006C0C2 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7723EE95B70006C0C2 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		80FEEB7023ECF3A90006C0C2 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		80FEEB7323ECFBF10006C0C2 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		80FEEB7523ECFC640006C0C2 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		80FEEB7723EE95B70006C0C2 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				80FEEB7023ECF3A90006C0C2 /* ErrorMessage.swift */,
+				80FEEB7723EE95B70006C0C2 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				80FEEB5023EBA6DB0006C0C2 /* GFTextField.swift in Sources */,
 				80FEEB4A23EB9F0F0006C0C2 /* SearchViewController.swift in Sources */,
 				80FEEB4E23EBA4170006C0C2 /* GFButton.swift in Sources */,
+				80FEEB7823EE95B80006C0C2 /* UIHelper.swift in Sources */,
 				80FEEB7623ECFC640006C0C2 /* GFAvatarImageView.swift in Sources */,
 				80FEEB5223EBE5EE0006C0C2 /* FollowerListViewController.swift in Sources */,
 				80FEEB5623EBECF80006C0C2 /* GFBodyLabel.swift in Sources */,
