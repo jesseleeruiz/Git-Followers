@@ -42,6 +42,7 @@ class GFAlertViewController: UIViewController {
         configureMessageLabel()
     }
     
+    // MARK: Methods
     func configureContainerView() {
         view.addSubview(containerView)
         containerView.backgroundColor = .systemBackground
