@@ -27,6 +27,7 @@
 		80FEEB7423ECFBF10006C0C2 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7323ECFBF10006C0C2 /* FollowerCell.swift */; };
 		80FEEB7623ECFC640006C0C2 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7523ECFC640006C0C2 /* GFAvatarImageView.swift */; };
 		80FEEB7823EE95B80006C0C2 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7723EE95B70006C0C2 /* UIHelper.swift */; };
+		80FEEB7F23F122A70006C0C2 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7E23F122A70006C0C2 /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		80FEEB7323ECFBF10006C0C2 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		80FEEB7523ECFC640006C0C2 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		80FEEB7723EE95B70006C0C2 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		80FEEB7E23F122A70006C0C2 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +111,13 @@
 		80FEEB5C23EC7CAD0006C0C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				80FEEB7D23F1227F0006C0C2 /* View Controllers */,
+				80FEEB7C23F1224B0006C0C2 /* Labels */,
+				80FEEB7B23F122330006C0C2 /* Image Views */,
+				80FEEB7A23F1222D0006C0C2 /* Text Fields */,
+				80FEEB7923F122270006C0C2 /* Buttons */,
 				80FEEB7223ECFBCC0006C0C2 /* Cells */,
-				80FEEB4D23EBA4170006C0C2 /* GFButton.swift */,
-				80FEEB4F23EBA6DB0006C0C2 /* GFTextField.swift */,
-				80FEEB5323EBEB810006C0C2 /* GFTitleLabel.swift */,
-				80FEEB5523EBECF80006C0C2 /* GFBodyLabel.swift */,
-				80FEEB5723EBEDCE0006C0C2 /* GFAlertViewController.swift */,
-				80FEEB7523ECFC640006C0C2 /* GFAvatarImageView.swift */,
+				80FEEB7E23F122A70006C0C2 /* GFEmptyStateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +173,47 @@
 				80FEEB7323ECFBF10006C0C2 /* FollowerCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		80FEEB7923F122270006C0C2 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEB4D23EBA4170006C0C2 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		80FEEB7A23F1222D0006C0C2 /* Text Fields */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEB4F23EBA6DB0006C0C2 /* GFTextField.swift */,
+			);
+			path = "Text Fields";
+			sourceTree = "<group>";
+		};
+		80FEEB7B23F122330006C0C2 /* Image Views */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEB7523ECFC640006C0C2 /* GFAvatarImageView.swift */,
+			);
+			path = "Image Views";
+			sourceTree = "<group>";
+		};
+		80FEEB7C23F1224B0006C0C2 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEB5323EBEB810006C0C2 /* GFTitleLabel.swift */,
+				80FEEB5523EBECF80006C0C2 /* GFBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		80FEEB7D23F1227F0006C0C2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEB5723EBEDCE0006C0C2 /* GFAlertViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +300,7 @@
 				80FEEB5423EBEB810006C0C2 /* GFTitleLabel.swift in Sources */,
 				80FEEB6923ECB3C40006C0C2 /* Follower.swift in Sources */,
 				80FEEB5A23EBF33A0006C0C2 /* UIViewController+EXT.swift in Sources */,
+				80FEEB7F23F122A70006C0C2 /* GFEmptyStateView.swift in Sources */,
 				80FEEB6E23ECB9930006C0C2 /* NetworkManager.swift in Sources */,
 				80FEEB3623EB94D00006C0C2 /* AppDelegate.swift in Sources */,
 				80FEEB4C23EB9F390006C0C2 /* FavoritesListViewController.swift in Sources */,
