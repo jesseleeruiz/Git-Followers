@@ -28,6 +28,7 @@
 		80FEEB7623ECFC640006C0C2 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7523ECFC640006C0C2 /* GFAvatarImageView.swift */; };
 		80FEEB7823EE95B80006C0C2 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7723EE95B70006C0C2 /* UIHelper.swift */; };
 		80FEEB7F23F122A70006C0C2 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB7E23F122A70006C0C2 /* GFEmptyStateView.swift */; };
+		80FEEB8123F131850006C0C2 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB8023F131850006C0C2 /* UserInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		80FEEB7523ECFC640006C0C2 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		80FEEB7723EE95B70006C0C2 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		80FEEB7E23F122A70006C0C2 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		80FEEB8023F131850006C0C2 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				80FEEB4923EB9F0F0006C0C2 /* SearchViewController.swift */,
 				80FEEB4B23EB9F390006C0C2 /* FavoritesListViewController.swift */,
 				80FEEB5123EBE5EE0006C0C2 /* FollowerListViewController.swift */,
+				80FEEB8023F131850006C0C2 /* UserInfoViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				80FEEB7F23F122A70006C0C2 /* GFEmptyStateView.swift in Sources */,
 				80FEEB6E23ECB9930006C0C2 /* NetworkManager.swift in Sources */,
 				80FEEB3623EB94D00006C0C2 /* AppDelegate.swift in Sources */,
+				80FEEB8123F131850006C0C2 /* UserInfoViewController.swift in Sources */,
 				80FEEB4C23EB9F390006C0C2 /* FavoritesListViewController.swift in Sources */,
 				80FEEB3823EB94D00006C0C2 /* SceneDelegate.swift in Sources */,
 			);
