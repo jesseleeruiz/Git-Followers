@@ -53,9 +53,12 @@ class FollowerListViewController: UIViewController {
     }
     
     func getFollowers(username: String, page: Int) {
+        showLoadingView()
                                                                    //Capture List
         NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] (result) in
             guard let self = self else { return } // unwrapping weak self since it is optional
+            
+            self.dismissLoadingView()
             
             switch result {
             case .success(let followers):
