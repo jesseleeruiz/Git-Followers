@@ -31,6 +31,7 @@
 		80FEEB8323F3800C0006C0C2 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB8223F3800C0006C0C2 /* GFError.swift */; };
 		80FEEB8523F4961F0006C0C2 /* GFUserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB8423F4961F0006C0C2 /* GFUserInfoHeaderViewController.swift */; };
 		80FEEB8723F496840006C0C2 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB8623F496840006C0C2 /* GFSecondaryTitleLabel.swift */; };
+		80FEEB8923F51DB90006C0C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB8823F51DB90006C0C2 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		80FEEB8223F3800C0006C0C2 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		80FEEB8423F4961F0006C0C2 /* GFUserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderViewController.swift; sourceTree = "<group>"; };
 		80FEEB8623F496840006C0C2 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		80FEEB8823F51DB90006C0C2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			children = (
 				80FEEB7723EE95B70006C0C2 /* UIHelper.swift */,
 				80FEEB8223F3800C0006C0C2 /* GFError.swift */,
+				80FEEB8823F51DB90006C0C2 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				80FEEB4A23EB9F0F0006C0C2 /* SearchViewController.swift in Sources */,
 				80FEEB4E23EBA4170006C0C2 /* GFButton.swift in Sources */,
 				80FEEB7823EE95B80006C0C2 /* UIHelper.swift in Sources */,
+				80FEEB8923F51DB90006C0C2 /* Constants.swift in Sources */,
 				80FEEB7623ECFC640006C0C2 /* GFAvatarImageView.swift in Sources */,
 				80FEEB5223EBE5EE0006C0C2 /* FollowerListViewController.swift in Sources */,
 				80FEEB8523F4961F0006C0C2 /* GFUserInfoHeaderViewController.swift in Sources */,
